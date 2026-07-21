@@ -1,8 +1,12 @@
-BUILT BY 3H SPLASH PAGE
+Updated Built By 3H splash page with favicon support.
 
-Upload all files and folders to the root of the builtby3h-site GitHub repository.
-Keep the CNAME file at the root.
-
-Each company is one <article class="venture-card"> block in index.html.
-Copy a complete block to add another company later.
-The cards are intentionally not linked yet.
+Upload/replace these files in your GitHub repository root:
+- index.html
+- styles.css
+- script.js
+- CNAME
+- favicon.ico
+- favicon-32x32.png
+- favicon-16x16.png
+- apple-touch-icon.png
+- assets/builtby3h-logo.png
