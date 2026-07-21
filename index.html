@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Built By 3H">
+  <title>Built By 3H</title>
+  <style>
+    :root {
+      --warm-white: #f7f5f0;
+      --charcoal: #1c1c1c;
+      --bronze: #a8844f;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      min-height: 100%;
+      background: var(--warm-white);
+    }
+    body {
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--charcoal);
+    }
+    main {
+      width: min(1100px, 94vw);
+      padding: 32px 16px 40px;
+      text-align: center;
+    }
+    .logo {
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+    .email-link {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 4px 8px;
+      color: var(--charcoal);
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-decoration: none;
+      text-transform: uppercase;
+      border-bottom: 2px solid var(--bronze);
+      transition: color 160ms ease, border-color 160ms ease;
+    }
+    .email-link:hover,
+    .email-link:focus-visible {
+      color: var(--bronze);
+      border-color: var(--charcoal);
+    }
+    @media (max-width: 640px) {
+      main {
+        width: min(100%, 96vw);
+        padding-top: 20px;
+      }
+      .email-link { margin-top: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="builtby3h-logo.png" alt="Built By 3H">
+    <a class="email-link"
+       href="mailto:ty@builtby3h.com?subject=Built%20By%203H%20Inquiry">
+      Email Ty
+    </a>
+  </main>
+</body>
+</html>
